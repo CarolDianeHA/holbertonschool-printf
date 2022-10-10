@@ -43,7 +43,7 @@ gcc -Wall -Werror -Wextra -pedantic -std=gnu89 -Wno-format *.c
 ```
 ### Flowchart
 
-![Flowchart](https://github.com/CarolDianeHA/holbertonschool-printf/blob/caroldiane/Images/Flowchart.png)
+![Flowchart](https://github.com/CarolDianeHA/holbertonschool-printf/blob/caroldiane/Images/printf%20Diagram.jpg)
 
 ### Authors
 
