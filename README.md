@@ -47,5 +47,6 @@ gcc -Wall -Werror -Wextra -pedantic -std=gnu89 -Wno-format *.c
 
 ### Authors
 
-Jose Acevedo [josemls](https://github.com/josemls)/n
+Jose Acevedo [josemls](https://github.com/josemls)
+
 Carol Diane Hernandez [CarolDianeHA](https://github.com/CarolDianeHA)
