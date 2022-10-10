@@ -37,7 +37,7 @@ int _printf(const char *format, ...);
     * Create a man page for your function.
 
 ### Compilation
-: Your code will be compiled this way
+Your code will be compiled this way
 ```
 gcc -Wall -Werror -Wextra -pedantic -std=gnu89 -Wno-format *.c
 ```
@@ -47,5 +47,5 @@ gcc -Wall -Werror -Wextra -pedantic -std=gnu89 -Wno-format *.c
 
 ### Authors
 
-Jose Acevedo [josemls](https://github.com/josemls)
+Jose Acevedo [josemls](https://github.com/josemls)/n
 Carol Diane Hernandez [CarolDianeHA](https://github.com/CarolDianeHA)
