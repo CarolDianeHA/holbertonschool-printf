@@ -22,6 +22,7 @@ Tasks:
         * c
         * s
         * %
+
 Prototype
 ```
 int _printf(const char *format, ...);
