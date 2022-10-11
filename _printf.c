@@ -16,6 +16,7 @@ int _printf(const char *format, ...)
 	{
 		if (*format != '%')
 		{
+			counter += _putchar(*format);
 			format++;
 			continue;
 		}
@@ -25,7 +26,11 @@ int _printf(const char *format, ...)
 			case 'c':
 				counter += _putchar(va_arg(args, int));
 				break;
+			case 's':
+				counter += _puts(va_arg(args, char*));
+				break;
 		}
+		format++;
 	}
 	va_end(args);
 	return (counter);
