@@ -6,7 +6,7 @@
  */
 
 int _printf(const char *format, ...)
-{	
+{
 	int counter = 0;
 	va_list args;
 
@@ -22,7 +22,7 @@ int _printf(const char *format, ...)
 		}
 		format++;
 		switch (*format)
-		{		
+		{
 			case 'c':
 				counter += _putchar(va_arg(args, int));
 				break;
