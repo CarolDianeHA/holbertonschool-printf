@@ -1,19 +1,22 @@
 #include "main.h"
 /**
- * _putchar - writes the character c to stdout
+ * _putchar - writes the character to stdout
  * @c: The character to print
- * Return: On success 1.
- * On error, -1 is returned, and errno is set appropriately.
+ * Return: 1 if success
+ * * error : -1
  */
+
 int _putchar(char c)
 {
 	return (write(1, &c, 1));
 }
+
 /**
- * _puts - function that prints the string
+ * _puts - Function that print a string
  * @s: string to be printed
- * Return: number of characters printed
+ * Return: numbers of characters printed
  */
+
 int _puts(char *s)
 {
 	int count = 0;
@@ -23,5 +26,5 @@ int _puts(char *s)
 		count += _putchar(*s);
 		s++;
 	}
-	return (count);
+		return (count);
 }
