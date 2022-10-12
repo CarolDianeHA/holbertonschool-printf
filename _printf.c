@@ -33,6 +33,10 @@ int _printf(const char *format, ...)
 			case '%':
 				counter += _putchar(*format);
 				break;
+			default:
+				while (*format != '%')
+					format--;
+				counter += _putchar(*format);
 		}
 		format++;
 	}
