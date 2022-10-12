@@ -28,11 +28,7 @@ int _printf(const char *format, ...)
 				counter += _putchar(va_arg(args, int));
 				break;
 			case 's':
-				while (!'s')
-				{
-					counter += _puts(va_arg(args, char*));
-					break;
-				}
+				counter += _puts(va_arg(args, char*));
 				break;
 			case '%':
 				counter += _putchar(*format);
