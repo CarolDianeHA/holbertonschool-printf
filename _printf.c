@@ -33,6 +33,7 @@ int _printf(const char *format, ...)
 					counter += _puts(va_arg(args, char*));
 					break;
 				}
+				break;
 			case '%':
 				counter += _putchar(*format);
 				break;
