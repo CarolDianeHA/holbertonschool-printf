@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdio.h>
 /**
  *  _printf - Prints output according to format
  *  @format: char string
@@ -28,8 +29,11 @@ int _printf(const char *format, ...)
 				counter += _putchar(va_arg(args, int));
 				break;
 			case 's':
-				counter += _puts(va_arg(args, char*));
-				break;
+				while (!'s')
+				{
+					counter += _puts(va_arg(args, char*));
+					break;
+				}
 			case '%':
 				counter += _putchar(*format);
 				break;
