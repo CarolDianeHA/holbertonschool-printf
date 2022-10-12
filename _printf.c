@@ -1,5 +1,4 @@
 #include "main.h"
-#include <stdio.h>
 /**
  *  _printf - Prints output according to format
  *  @format: char string
