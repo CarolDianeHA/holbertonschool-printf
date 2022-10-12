@@ -28,16 +28,14 @@ int _printf(const char *format, ...)
 				counter += _putchar(va_arg(args, int));
 				break;
 			case 's':
-<<<<<<< HEAD
 				counter += _puts(va_arg(args, char*));
 				break;
-=======
 				while (!'s')
 				{
 					counter += _puts(va_arg(args, char*));
 					break;
 				}
->>>>>>> caroldiane
+				break;
 			case '%':
 				counter += _putchar(*format);
 				break;
@@ -51,7 +49,3 @@ int _printf(const char *format, ...)
 	va_end(args);
 	return (counter);
 }
-<<<<<<< HEAD
-
-=======
->>>>>>> caroldiane
