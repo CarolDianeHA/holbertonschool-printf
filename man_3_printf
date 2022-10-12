@@ -31,4 +31,8 @@ is used to print to the screen integers, characters, floats, decimals, strings o
 If the function was successful it returns the numbers of characters printed.
 If the function fail it returns a negative value
 .SH AUTHOR
+<<<<<<< HEAD
 Jose Acevedo & Carol Diane
+=======
+Jose Acevedo & Carol Diane Hernandez
+>>>>>>> caroldiane
