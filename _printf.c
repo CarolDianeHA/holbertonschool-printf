@@ -21,8 +21,6 @@ int _printf(const char *format, ...)
 			continue;
 		}
 		format++;
-		while (*format == ' ')
-			format++;
 		switch (*format)
 		{
 			case 'c':
