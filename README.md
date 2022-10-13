@@ -51,7 +51,7 @@ Man page for the _printf function.
 
 To access manpage format:
 ```
-man ./man_3-printf
+man ./man_3_printf
 ```
 
 ### Authors
