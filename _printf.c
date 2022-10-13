@@ -4,7 +4,6 @@
  *  @format: char string
  *  Return: num of char printed
  */
-
 int _printf(const char *format, ...)
 {
 	int counter = 0;
