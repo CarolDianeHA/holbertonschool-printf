@@ -7,5 +7,7 @@
 int _printf(const char *format, ...);
 int _putchar(char c);
 int _puts(char *s);
+char *convert(int num, int base);
+int _pnum(int num);
 
 #endif
