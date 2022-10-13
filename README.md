@@ -47,6 +47,15 @@ gcc -Wall -Werror -Wextra -pedantic -std=gnu89 -Wno-format *.c
 
 ### Authors
 
+### man_3_printf
+
+Man page for the _printf function.
+
+To access manpage format:
+```
+man ./man_3-printf
+```
+
 Jose Acevedo [josemls](https://github.com/josemls)
 
 Carol Diane Hernandez [CarolDianeHA](https://github.com/CarolDianeHA)
