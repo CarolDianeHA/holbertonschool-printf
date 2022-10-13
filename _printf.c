@@ -33,6 +33,10 @@ int _printf(const char *format, ...)
 			case '%':
 				counter += _putchar(*format);
 				break;
+			case 'd':
+			case 'i':
+				counter += _pnum(va_arg(args, int));
+				break;
 			default:
 				while (*format != '%')
 					format--;
