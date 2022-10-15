@@ -54,6 +54,9 @@ To access manpage format:
 man ./man_3_printf
 ```
 
+### Function Example
+![Example](https://github.com/CarolDianeHA/holbertonschool-printf/blob/caroldiane/Images/Example.png)
+
 ### Authors
 
 Jose Acevedo [josemls](https://github.com/josemls)
