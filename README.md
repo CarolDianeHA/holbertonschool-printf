@@ -45,6 +45,15 @@ gcc -Wall -Werror -Wextra -pedantic -std=gnu89 -Wno-format *.c
 
 ![Flowchart](https://github.com/CarolDianeHA/holbertonschool-printf/blob/caroldiane/Images/printf%20Diagram.jpg)
 
+### man_3_printf
+
+Man page for the _printf function.
+
+To access manpage format:
+```
+man ./man_3_printf
+```
+
 ### Function Example
 ![Example](https://github.com/CarolDianeHA/holbertonschool-printf/blob/caroldiane/Images/Example.png)
 
